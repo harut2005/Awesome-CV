@@ -729,6 +729,6 @@
     {\\}
     {%
       \\\\\\
-      \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
+      \letterenclosurestyle{\@letterenclname: \@letterenclosure}
     }
 }
