@@ -89,7 +89,7 @@
   pdfsubject={},
   pdfkeywords={}
 }
-
+\RequirePackage{calligra,lipsum}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -147,6 +147,8 @@
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
 \colorlet{awesome}{awesome-red}
+% Letter Name colors
+\definecolor{navyblue}{HTML}{000080}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -231,7 +233,7 @@
 \newcommand*{\lettertitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\bfseries\color{darktext} \underline{#1}}}
 \newcommand*{\letterdatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\lettertextstyle}{\fontsize{10pt}{1.4em}\bodyfontlight\upshape\color{graytext}}
-\newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1.4em}\bodyfont\bfseries\color{graytext} #1}}
+\newcommand*{\letternamestyle}[1]{{\fontsize{11pt}{1.4em}\calligra\bfseries\color{navyblue} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
 
